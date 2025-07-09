@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #d5d6d8;
+  background-color: #f1f1f3;
 }
 nav {
   display: flex;
@@ -80,4 +80,55 @@ header div h4 {
   width: 62px;
   height: 62px;
   margin: 10px 0;
+}
+/* vision */
+
+.vision {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.vision h1 {
+  margin-bottom: 10px;
+}
+.vision p {
+  margin-bottom: 10px;
+}
+.vision-container {
+  display: flex;
+  gap: 20px;
+}
+.vision-card {
+  height: 244px;
+  background-color: #81b4fc;
+  border-radius: 16px;
+  padding: 24px;
+  /* margin: 50px 0; */
+  /* border: 1px solid #006a50; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.vision-card h2 {
+  margin-bottom: 10px;
+}
+.vision-card p {
+  margin-bottom: 20px;
+}
+.btn-sm {
+  width: 122px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: #5490f5;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+.vision-x {
+  max-width: 1280px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.vision-x p,
+h2 {
+  padding: 20px;
 }
